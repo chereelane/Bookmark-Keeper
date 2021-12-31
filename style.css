@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root {
   --primary-color: #006400;
@@ -10,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Shadows Into Light', cursive;
   min-height: 100vh;
   background-image: url(pattern-randomized.svg);
 }
@@ -19,7 +21,9 @@ h1 {
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: var(--border-radius);
+  border-style: outset;
   cursor: pointer;
+  text-align: center;
   text-transform: uppercase;
   width: 275px;
   margin: 20px auto 10px;
