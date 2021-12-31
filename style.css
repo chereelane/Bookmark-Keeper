@@ -3,6 +3,7 @@
 :root {
   --primary-color: #006400;
   --border-radius: 5px;
+  --border-style: outset;
 }
 
 html {
@@ -17,11 +18,11 @@ body {
 }
 
 h1 {
-  color: green;
+  color: white;
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: var(--border-radius);
-  border-style: outset;
+  border-style: var(--border-style);
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
@@ -32,4 +33,49 @@ h1 {
 
 h1:hover {
   background: rgba(0, 0, 0, 0.8);
+}
+
+/* Bookmarks*/
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: var(--border-radius);
+  border-style: var(--border-style);
+  padding: 20px;
+  margin: 10px;
+}
+
+.item:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration:none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.name img {
+  height: 20px;
+  width: 20px;
+  vertical-align: sub;
+  margin-right: 5px;
 }
