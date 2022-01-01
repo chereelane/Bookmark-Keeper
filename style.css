@@ -114,6 +114,7 @@ a:active {
   max-width: 95%;
   width: 500px;
   animation: modalopen 1s;
+  border-style: var(--border-style);
 }
 
 @keyframes modalopen {
@@ -189,6 +190,7 @@ button:hover {
 button:focus {
   outline: none;
 }
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .container {
