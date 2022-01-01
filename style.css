@@ -158,7 +158,7 @@ h3 {
 }
 
 .form-input {
-  width: 97px;
+  width: 97%;
   padding: 5px;
   border: 2px;
   color: var(--primary-color);
